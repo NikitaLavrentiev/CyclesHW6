@@ -24,15 +24,18 @@ public class Main {
     }
 
     public static void task3() {
-
+        //Выведите в консоль все четные числа от 0 до 17.
         System.out.println("\nЗадача 3");
 
+        for (int i = 0; i<=17; i= i+2)
+            System.out.println(i);
     }
 
     public static void task4() {
-
+//Выведите в консоль все числа от 10 до −10 от бо́льшего числа к меньшему.
         System.out.println("\nЗадача 4");
-
+    for (int i = 10; i>=-10; i--)
+        System.out.println(i);
     }
 
     public static void task5() {
